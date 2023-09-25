@@ -1,0 +1,175 @@
+.StoreMain {
+  display: flex;
+  width: 100%;
+  border-style: solid;
+  border-width: 3px 0px 3px 0px;
+  border-color: #5076dd;
+  flex-direction: row;
+
+  height: 30%;
+  align-self: center;
+  justify-content: space-around;
+}
+.Store-Item {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5076dd;
+
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 25px;
+}
+.Store-Item > h3 {
+  display: flex;
+  margin-top: 50px;
+  height: 20%;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+}
+.Store-Item-Check {
+  display: flex;
+  margin-top: 50px;
+  align-self: flex-end;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 25px;
+}
+.Store-Item-Check.active {
+  display: flex;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 25px;
+  background-color: #5076dd;
+  color: #5076dd;
+}
+
+.Store-Item:hover {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5076dd;
+  background-color: #5076dd;
+  color: white;
+  transition: 0.5s;
+}
+.Store-Button {
+  display: flex;
+  width: 100px;
+  height: 90%;
+  align-self: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #5076dd;
+  color: #5076dd;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 2px;
+}
+.Store-Button:hover {
+  display: flex;
+  width: 100px;
+  height: 90%;
+  align-self: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #5076dd;
+  color: #5076dd;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #5076dd;
+  color: white;
+}
+.Store-Setting-Container {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-self: center;
+
+  flex-direction: row;
+}
+.Store-Input-Container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Store-Input {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #5076dd;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Store-Input > input {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 40%;
+  height: 100%;
+  border-style: none;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #5076dd;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.Store-ItemList-Container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.Store-ItemList {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5076dd;
+
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.Store-ItemList > h3 {
+  display: flex;
+  margin-top: 50px;
+  height: 20%;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.order_container {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}

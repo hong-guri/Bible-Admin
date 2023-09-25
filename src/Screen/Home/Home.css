@@ -1,0 +1,117 @@
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.MenuBar-Container {
+  display: flex;
+  width: 90%;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #a7a7a7;
+  flex-direction: row;
+  justify-content: space-around;
+
+  height: 10%;
+  align-self: center;
+}
+.Options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Options.active {
+  margin-top: 5px;
+
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #5c86fe;
+}
+.Options.active > .Options-Text {
+  color: #5076dd;
+
+  margin: 0 auto;
+}
+.Options-Text {
+  margin: 0 auto;
+  font-size: 30px;
+  color: #a7a7a7;
+}
+.Sub-Menu-Container {
+  display: flex;
+  width: 90%;
+  height: 13%;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.Sub-Option {
+  height: 0%;
+  width: 20%;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+.Sub-Option.active {
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+  transition: 0.5s;
+  border-color: #5c86fe;
+}
+.Sub-Menu-option.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 0px 2px 2px 2px;
+  border-color: #5c86fe;
+}
+.Sub-Menu-option.active > .Sub-Menu-Text {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #bcc6e0;
+  font-weight: 600;
+}
+.Sub-Menu-option.active > .Sub-Menu-Text.active {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #5076dd;
+  font-weight: 600;
+}
+.Sub-Menu-Text {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0px;
+  color: #bcc6e0;
+  font-weight: 600;
+}
+.Sub-Menu-Text.active {
+  margin: 0 auto;
+  font-size: 18px;
+  color: #5076dd;
+  font-weight: 600;
+}
+.Main-Screen {
+  display: flex;
+  width: 90vw;
+  height: 75vh;
+  align-self: center;
+}

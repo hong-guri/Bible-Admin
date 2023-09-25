@@ -1,0 +1,251 @@
+.Main {
+  display: flex;
+  width: 100%;
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  border-color: #5076dd;
+  flex-direction: column;
+  align-self: center;
+}
+.quiz_main {
+  border: none;
+}
+.Main-Header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #f5f8ff;
+  height: 1250;
+  align-self: flex-start;
+  justify-content: space-around;
+  border-bottom: 3px solid #5076dd;
+}
+.top_line {
+  border-top: 3px solid #5076dd;
+}
+.Main-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  align-self: flex-start;
+  justify-content: space-around;
+}
+.User-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-around;
+  justify-content: center;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #999999;
+}
+
+.Table-Col {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0;
+  align-self: center;
+  justify-content: center;
+}
+.Table-Header-Col {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+}
+.Table-Col-Text {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.Content-Text {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.Pagination button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #000;
+}
+
+.Pagination button.active {
+  background-color: #5076dd;
+  color: #fff;
+}
+
+.short_table_20 {
+  width: 20%;
+}
+.short_table_30 {
+  width: 30%;
+}
+
+.short_table_50 {
+  width: 50%;
+}
+
+.table_btn {
+  background-color: #295dee;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  &.refund {
+    background-color: #5f5d5d;
+    margin-left: 10px;
+  }
+}
+.delete_btn {
+  background-color: #f11010;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete_btn:hover {
+  background-color: #f11010;
+}
+
+/* 검색 css */
+
+.Header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.Header select {
+  width: 120px;
+  height: 30px;
+  /* padding: 5px; */
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.Header input[type="text"] {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select_area {
+  width: 395px;
+}
+
+.quiz_select {
+  width: 270px;
+}
+
+/* .Header button {
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5076dd;
+  color: #fff;
+  cursor: pointer;
+} */
+
+.button-grid {
+  margin-right: 20px;
+}
+.page_btn {
+  background-color: #5076dd;
+  color: #fff;
+  min-width: 50px;
+  padding: 3px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.link_title {
+  color: #295dee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.table_content {
+  display: inline-block;
+  word-break: keep-all;
+  width: calc(100% - 70px);
+  border-left: 1px solid #999999;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.table_title {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.modal_table_box {
+  border-bottom: 1px solid #999999;
+}
+.answer_box {
+  color: #f11010;
+}
+
+.loading {
+  padding: 50px 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.waiting {
+  background-color: #f0ad4e;
+}
+
+.rejected {
+  background-color: #d9534f;
+}
+
+.delivered {
+  background-color: #5bc0de;
+}

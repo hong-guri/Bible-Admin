@@ -1,7 +1,17 @@
 .App {
+  display: flex;
   text-align: center;
+  align-self: center;
+  justify-content: center;
 }
-
+.Screen{
+  display: flex;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +45,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+.admin-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.admin-login-header {
+  text-align: center;
+}
+.Login-Banner-Text {
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  border-color: #2e64fe;
+  color: #2e64fe;
+  padding: 10px;
+  font-size: 38px;
+  font-weight: 500;
+}
+.logo {
+
+  height: 10vh;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  align-self: center;
+  justify-self: center;
+}
+.TextIPT{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Login-BTN{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150%;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #2e64fe;
+  color: white;
 }

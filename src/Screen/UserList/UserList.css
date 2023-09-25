@@ -1,0 +1,15 @@
+.User-Main-Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.CB {
+  display: flex;
+  width: 20px;
+  flex-direction: row;
+  height: 20px;
+  align-self: flex-start;
+}

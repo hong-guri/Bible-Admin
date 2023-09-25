@@ -1,0 +1,114 @@
+
+.add-item-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.add-item-title {
+  font-size: 24px;
+  color: #5076dd;
+  margin: 20px 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex: 1 0 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 10px;
+  max-width: calc(33.33% - 20px);
+  background-color: #5076dd;
+  color: #fff;
+}
+
+.product-item:hover {
+  background-color: #415c8e;
+}
+
+.product-item div {
+  padding: 10px;
+}
+
+.product-item strong {
+  font-size: 18px;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+
+.modal-background {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-detail {
+  display: block;
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #f44336;
+}
+
+.modal-content-detail h2 {
+  color: #5076dd;
+}
+
+.modal-content-detail label {
+  display: block;
+  margin-top: 10px;
+}
+
+.modal-content-detail input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.modal-content-detail .confirm-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5076dd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content-detail .confirm-button:hover {
+  background-color: #415c8e;
+}
